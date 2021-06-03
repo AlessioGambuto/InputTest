@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 	    Scanner in = new Scanner(System.in);
-	    int a[]= new int[3];
+	    int[] a = new int[3];
 	    int j;
 	    int maggiore;
             for(int i=0; i<3; i++) {
@@ -18,21 +18,21 @@ public class Main {
         if (a[0] > a[1]) {
                 if (a[0]>a[2]) {
                     maggiore = a[0];
-                    System.out.println("Il n° più grande è: " + maggiore);
+                    System.out.println("Il n° maggiore inserito è il primo e vale: " + maggiore);
                 }
                 else {
-                    maggiore = a[1];
-                    System.out.println("Il n° più grande è: " + maggiore);
+                    maggiore = a[2];
+                    System.out.println("Il n° maggiore inserito è il terzo e vale: " + maggiore);
                 }
         }
         else {
             if (a[1]> a[2]){
                 maggiore=a[1];
-                System.out.println("Il n° più grande è: " + maggiore);
+                System.out.println("Il n° maggiore inserito è il secondo e vale: " + maggiore);
             }
             else{
                 maggiore=a[2];
-                System.out.println("Il n° più grande è: " + maggiore);
+                System.out.println("Il n° maggiore inserito è il terzo e vale: " + maggiore);
         }
 
     }
